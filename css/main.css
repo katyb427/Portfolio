@@ -1,23 +1,26 @@
  /* comment */
  body {
-    background: orange;
+    background:#fcfcfc;
 }
 
 .white {
-    background: white;
+    background: rgb(252, 245, 245);
 }
 
 .yellow {
-    background: yellow;
+    background: rgb(250, 250, 184);
 }
 
 .green {
-    background: greenyellow;
+    background: rgb(225, 241, 200);
 }
 
 .branding {
     font-size: 28px;
     padding: 20px;
+    font-weight: bold;
+    color: darkblue;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .container {
@@ -30,4 +33,16 @@ nav {
 
 nav a {
     color: black;
+}
+.yellow-text:hover{
+    color: blue;
+    text-decoration: none;
+
+}
+.card-title {
+    color: darkblue;
+}
+.card-title:hover{
+    color: lightcoral;
+    text-decoration: none;
 }
